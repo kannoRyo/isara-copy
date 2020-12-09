@@ -1,0 +1,13 @@
+.header {
+  background-color: red;
+  width: 1170px;
+  max-width: calc(100%-20px);
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=index.css.map */
