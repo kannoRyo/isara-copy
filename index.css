@@ -1,13 +1,145 @@
-.header {
-  background-color: red;
-  width: 1170px;
-  max-width: calc(100%-20px);
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.txts {
+  font-size: 12px;
+}
+
+.txtm {
+  font-size: 16px;
+}
+
+.txtl {
+  font-size: 28px;
+}
+
+.header-cover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-cover .header-left .header-logo {
+  vertical-align: bottom;
+}
+
+.header-cover .header-left .header-txt {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: bold;
+  margin-top: auto;
+  letter-spacing: 1.6;
+}
+
+.header-cover .header-left .header-txt p {
+  margin: 0;
+}
+
+.header-cover .header-right-pc {
+  opacity: 0.8;
+}
+
+.header-cover .header-right-pc:hover {
+  opacity: 1.0;
+}
+
+.header-cover .header-right-pc button {
+  padding: 11px 40px;
+  border-radius: 32px;
+}
+
+.title {
+  padding-top: 85px;
+}
+
+.title .title-cover {
+  background: url("https://isara.life/wp-content/themes/isara_v2/img/main.jpg");
+  background-position: center;
+  display: table;
+  background-size: cover;
+  width: 100%;
+}
+
+.title .title-cover img {
+  margin-bottom: 2rem;
+  width: 65%;
+  height: 65%;
+  max-width: 317px;
+}
+
+.title .title-cover .title-txt {
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .header-cover {
+    width: 1170px;
+    height: 85px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  .header-cover .header-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header-cover .haaer-logo {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+  .header-cover .header-right-sp {
+    display: none;
+  }
+  .title-cover {
+    height: 500px;
+  }
+  .title-cover .title-txt {
+    margin: 85px 0;
+  }
+  .title-cover img {
+    max-width: 317px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .txts {
+    font-size: 8px;
+  }
+  .txtm {
+    font-size: 12px;
+  }
+  .txtl {
+    font-size: 16px;
+  }
+  .header-left {
+    margin: 0.5rem 0.25rem 0;
+  }
+  .header-right-sp {
+    padding: 9px 11px;
+  }
+  .header-right-sp i {
+    margin: 0 20px;
+    display: block;
+  }
+  .header-right-sp a {
+    font-size: 12px;
+    color: #fff;
+    height: 100%;
+    margin: 8px;
+  }
+  .header-right-pc {
+    display: none;
+  }
+  .title-cover {
+    height: 310px;
+  }
+  .title-cover .title-txt {
+    margin: 30px 0;
+  }
 }
 /*# sourceMappingURL=index.css.map */

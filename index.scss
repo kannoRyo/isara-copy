@@ -1,12 +1,144 @@
-body{
-}
+
+
+// p要素文字
+.txts{
+    font-size: 12px;
+}   
+.txtm{
+    font-size: 16px;
+}   
+.txtl{
+    font-size: 28px;
+}   
 
 // header
-.header{
-    background-color: red;
-    width: 1170px;
-    max-width: calc(100%-20px);
-    margin: 0 auto;
-    display: flex;
+.header-cover{
     justify-content: space-between;
+    display: flex;
+    
+    //header-left
+    .header-left{
+        .header-logo{
+            vertical-align: bottom;
+        }
+        .header-txt{
+            flex-direction: column;
+            font-weight: bold;
+            margin-top: auto;
+            letter-spacing: 1.6;
+            p{
+                margin:0;
+            }
+        }
+    }   
+    
+    //header-right-pc
+    .header-right-pc{
+        opacity: 0.8;
+        &:hover{
+            opacity: 1.0;
+        }
+        button{
+            padding: 11px 40px;
+            border-radius: 32px;
+        }
+    }
+}
+
+//title
+ .title{
+    padding-top: 85px;
+    .title-cover{
+        background: url("https://isara.life/wp-content/themes/isara_v2/img/main.jpg") ;
+        background-position: center;
+        display: table;
+        background-size: cover;    
+        width: 100%;
+        img{
+            margin-bottom: 2rem;
+            width: 65%;
+            height: 65%;
+            max-width: 317px;
+        }
+        
+        .title-txt{
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}
+
+//responsive
+
+//pc
+@media screen and (min-width:767px){
+    .header-cover{
+        width: 1170px;
+        height: 85px;
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+        padding: 20px 0;
+        .header-left{
+            display: flex;
+        }
+        .haaer-logo{
+            order:-1;
+        }
+        .header-right-sp{
+            display: none;
+        }
+    }
+    .title-cover{
+        height: 500px;
+        .title-txt{
+            margin:85px 0;
+        }
+        img{
+            max-width: 317px;
+        }
+    }
+    
+    
+}
+
+//sp
+@media screen and (max-width:767px){
+    // p要素文字
+    .txts{
+        font-size: 8px;
+    }   
+    .txtm{
+        font-size: 12px;
+    }   
+    .txtl{
+        font-size: 16px;
+    }   
+    .header-left{
+        margin: 0.5rem 0.25rem 0;
+    }
+    
+    .header-right-sp{
+        padding: 9px 11px;
+        i{
+            margin:0 20px;
+            display: block;
+        }
+        a{
+            font-size: 12px;
+            color: #fff;
+            height: 100%;
+            margin: 8px;
+        }
+    }
+    .header-right-pc{
+        display: none;
+    }
+
+    .title-cover{
+        height: 310px;
+        .title-txt{
+            margin:30px 0;
+        }
+    }
+    
 }
