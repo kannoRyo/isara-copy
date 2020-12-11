@@ -12,6 +12,11 @@
 }   
 
 // header
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
 .header-cover{
     justify-content: space-between;
     display: flex;
@@ -47,7 +52,7 @@
 
 //title
  .title{
-    padding-top: 85px;
+    padding-top: 75px;
     .title-cover{
         background: url("https://isara.life/wp-content/themes/isara_v2/img/main.jpg") ;
         background-position: center;
