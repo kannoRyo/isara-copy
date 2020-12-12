@@ -136,6 +136,7 @@
 
 .kagikakko h2 {
   margin: 15px 0;
+  font-weight: bold;
 }
 
 .kagikakko:before {
@@ -158,6 +159,29 @@
   border-right: 4px solid #ebb94d;
   width: 50px;
   height: 50px;
+}
+
+.about {
+  text-align: center;
+  background-color: #fef5e0;
+}
+
+.about-circle {
+  position: relative;
+  top: -40px;
+}
+
+.about-circle p {
+  height: 80px;
+  width: 80px;
+  font-weight: 300;
+  color: #fff;
+  background-color: #ebb94d;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 767px) {
@@ -218,6 +242,46 @@
   .kagikakko h2 {
     font-size: 28px;
   }
+  .about-cover {
+    padding: 30px 0;
+  }
+  .about-cover .about-content {
+    margin: 40px 0 30px;
+  }
+  .about-cover .about-skils {
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    width: 75%;
+    margin: 20px auto;
+    padding: 30px;
+    display: -ms-grid;
+    display: grid;
+    grid-template: "...    txt    txt    txt     txt    txt ..." 60px "...   skil-1 skil-2 skil-3  skil-4 skil-5 ..." 100px/ 0.5fr 17%  17%   17%   17%  17% 0.5fr;
+  }
+  .about-cover .about-skils .about-skil-txt {
+    grid-area: txt;
+  }
+  .about-cover .about-skils .about-skil p {
+    margin: 10px 0;
+  }
+  .about-cover .about-skils .about-skil img {
+    height: 55px;
+  }
+  .about-cover .about-skils .about-skil-1 {
+    grid-area: skil-1;
+  }
+  .about-cover .about-skils .about-skil-2 {
+    grid-area: skil-2;
+  }
+  .about-cover .about-skils .about-skil-3 {
+    grid-area: skil-3;
+  }
+  .about-cover .about-skils .about-skil-4 {
+    grid-area: skil-4;
+  }
+  .about-cover .about-skils .about-skil-5 {
+    grid-area: skil-5;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -271,6 +335,46 @@
   }
   .kagikakko h2 {
     font-size: 15px;
+  }
+  .about-cover {
+    padding: 30px 0;
+  }
+  .about-cover .about-content {
+    margin: 40px 0 30px;
+  }
+  .about-cover .about-skils {
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    width: 75%;
+    margin: 20px auto;
+    display: -ms-grid;
+    display: grid;
+    grid-template: "    txt     txt      txt      txt     txt    " 40px "  skil-1  .....   skil-2    .....   skil-3  " 90px "   .....   skil-4    ....   skil-5   .....   " 90px / 55px  55px   55px   55px  55px;
+  }
+  .about-cover .about-skils .about-skil-txt {
+    grid-area: txt;
+  }
+  .about-cover .about-skils .about-skil p {
+    margin: 10px 0;
+    width: 100px;
+  }
+  .about-cover .about-skils .about-skil img {
+    height: 30px;
+  }
+  .about-cover .about-skils .about-skil-1 {
+    grid-area: skil-1;
+  }
+  .about-cover .about-skils .about-skil-2 {
+    grid-area: skil-2;
+  }
+  .about-cover .about-skils .about-skil-3 {
+    grid-area: skil-3;
+  }
+  .about-cover .about-skils .about-skil-4 {
+    grid-area: skil-4;
+  }
+  .about-cover .about-skils .about-skil-5 {
+    grid-area: skil-5;
   }
 }
 /*# sourceMappingURL=index.css.map */
