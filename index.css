@@ -1,5 +1,6 @@
 .header {
   position: fixed;
+  z-index: 10;
   width: 100%;
   background-color: #fff;
 }
@@ -95,7 +96,74 @@
   background-color: #f9f2f4;
 }
 
+.introduce {
+  background: url(https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.introduce-cover {
+  padding: 50px 0;
+}
+
+.introduce-cover .introduce-txts {
+  padding: 40px 0px;
+}
+
+.introduce-cover .introduce-txts p {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 1.8rem;
+}
+
+.introduce-cover .introduce-txts p .under {
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #ebb94d));
+  background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
+
+.kagikakko {
+  text-align: center;
+  font-family: 'M PLUS Rounded 1c';
+  padding: 15px;
+  margin: 0 auto;
+  position: relative;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  padding: 15px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.kagikakko h2 {
+  margin: 15px 0;
+}
+
+.kagikakko:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+  width: 50px;
+  height: 50px;
+}
+
+.kagikakko:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+  width: 50px;
+  height: 50px;
+}
+
 @media screen and (min-width: 767px) {
+  .brsp {
+    display: none;
+  }
   .txts {
     font-size: 12px;
   }
@@ -147,9 +215,15 @@
     margin: 40px auto;
     border-radius: 64px;
   }
+  .kagikakko h2 {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .brsp {
+    display: block;
+  }
   .txts {
     font-size: 8px;
   }
@@ -194,6 +268,9 @@
     width: 85%;
     padding: 15px;
     border-radius: 64px;
+  }
+  .kagikakko h2 {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=index.css.map */
