@@ -184,12 +184,43 @@
   margin-bottom: 0;
 }
 
+.aboutSecond-cover {
+  text-align: center;
+  color: #fff;
+}
+
+.aboutSecond-cover p {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.aboutSecond-cover .aboutSecond-step {
+  background-color: #fff;
+  border-radius: 6px;
+  color: #000;
+}
+
+.aboutSecond-cover .aboutSecond-step .aboutSecond-step-number {
+  background-color: #ebb94d;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.isaraLearning {
+  background-color: #016ea9;
+}
+
+.isaraLearning .isaraLearningCover {
+  text-align: center;
+  color: white;
+}
+
 @media screen and (min-width: 767px) {
   .brsp {
     display: none;
   }
   .txts {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 600;
   }
   .txtm {
     font-size: 20px;
@@ -197,6 +228,7 @@
   }
   .txtl {
     font-size: 28px;
+    font-family: 600;
   }
   .header-cover {
     width: 1170px;
@@ -282,6 +314,41 @@
   .about-cover .about-skils .about-skil-5 {
     grid-area: skil-5;
   }
+  .aboutSecond {
+    background: url(https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbg.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .aboutSecond-cover {
+    padding: 40px 0;
+  }
+  .aboutSecond-cover h2 {
+    margin: 15px 0;
+  }
+  .aboutSecond-cover .aboutSecond-steps {
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    gap: 2%;
+    grid-template: "...  step-1 step-2 step-3 ..."/ 0.5fr 25%    25%    25%    0.5fr;
+  }
+  .aboutSecond-cover .aboutSecond-steps .aboutSecond-step {
+    padding: 30px 30px 20px 30px;
+  }
+  .aboutSecond-cover .aboutSecond-steps .aboutSecond-step p {
+    margin: 12px;
+  }
+  .aboutSecond-cover .aboutSecond-steps .aboutSecond-step-1 {
+    grid-area: step-1;
+  }
+  .aboutSecond-cover .aboutSecond-steps .aboutSecond-step-2 {
+    grid-area: step-2;
+  }
+  .aboutSecond-cover .aboutSecond-steps .aboutSecond-step-3 {
+    grid-area: step-3;
+  }
+  .isaraLearningCover {
+    padding: 40px 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -289,13 +356,14 @@
     display: block;
   }
   .txts {
-    font-size: 8px;
+    font-size: 12px;
+    font-weight: 500;
   }
   .txtm {
-    font-size: 12px;
+    font-size: 15px;
   }
   .txtl {
-    font-size: 16px;
+    font-size: 18px;
   }
   .header-left {
     margin: 0.5rem 0.25rem 0;
@@ -327,6 +395,9 @@
     text-align: center;
     color: #fff;
   }
+  .conversion-cover .txtm {
+    font-size: 10px;
+  }
   .conversion-cover button {
     margin: 40px auto;
     width: 85%;
@@ -345,7 +416,7 @@
   .about-cover .about-skils {
     background-color: #fff;
     border: 2px solid #ebb94d;
-    width: 75%;
+    width: 90%;
     margin: 20px auto;
     display: -ms-grid;
     display: grid;
@@ -375,6 +446,34 @@
   }
   .about-cover .about-skils .about-skil-5 {
     grid-area: skil-5;
+  }
+  .aboutSecond {
+    background: url(https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbgsp.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .aboutSecond-cover {
+    padding: 30px;
+  }
+  .aboutSecond-cover h2 {
+    margin: 15px 0;
+  }
+  .aboutSecond-cover .txtm {
+    font-size: 13px;
+  }
+  .aboutSecond-cover .aboutSecond-step {
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 50px;
+    margin-bottom: 15px;
+  }
+  .aboutSecond-cover .aboutSecond-step p {
+    margin: 0;
+  }
+  .aboutSecond-cover .aboutSecond-step p:first-of-type {
+    margin: 15px 0 5px;
+  }
+  .isaraLearningCover {
+    padding: 20px 0;
   }
 }
 /*# sourceMappingURL=index.css.map */

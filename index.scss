@@ -169,6 +169,36 @@
     }
 }
 
+//aboutSecond
+
+
+.aboutSecond-cover{
+    text-align: center;
+    p{
+        font-family: 'M PLUS 1p', sans-serif;
+    }
+    color: #fff;
+    
+    .aboutSecond-step{
+        background-color: #fff;
+        border-radius: 6px;
+        color: #000;
+        .aboutSecond-step-number{
+            background-color: #ebb94d;
+            border-radius: 4px;
+            color: #fff;
+        }
+    }
+}
+
+//isaraLearning
+.isaraLearning{
+    background-color: #016ea9;
+    .isaraLearningCover{
+        text-align: center;
+        color: white;
+    }
+}
 
 
 
@@ -180,10 +210,11 @@
     .brsp{
         display: none;
     }
-
+    
     // p要素文字
     .txts{
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: 600;
     }   
     .txtm{
         font-size: 20px;
@@ -191,6 +222,7 @@
     }   
     .txtl{
         font-size: 28px;
+        font-family: 600;
     }       
     .header-cover{
         width: 1170px;
@@ -229,7 +261,7 @@
             border-radius: 64px;               
         }
     }    
-
+    
     .kagikakko{
         h2{
             font-size: 28px;
@@ -240,19 +272,18 @@
         .about-content{
             margin: 40px 0 30px;
         }
-    
+        
         .about-skils{
             background-color: #fff;
             border: 2px solid #ebb94d;
             width:75%;
             margin: 20px auto;
             padding: 30px;
-    
             display: grid;
             grid-template: 
-                "...    txt    txt    txt     txt    txt ..." 60px
-                "...   skil-1 skil-2 skil-3  skil-4 skil-5 ..." 100px/
-                 0.5fr 17%  17%   17%   17%  17% 0.5fr
+            "...    txt    txt    txt     txt    txt ..." 60px
+            "...   skil-1 skil-2 skil-3  skil-4 skil-5 ..." 100px/
+            0.5fr 17%  17%   17%   17%  17% 0.5fr
             ;  
             .about-skil-txt{
                 grid-area: txt;
@@ -265,7 +296,7 @@
                     height: 55px;
                 }
             }
-    
+            
             .about-skil-1{
                 grid-area: skil-1;
             }   
@@ -282,7 +313,50 @@
                 grid-area: skil-5;
             }   
         }
+    }  
+
+    .aboutSecond{
+        background: url(https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbg.jpg) no-repeat center;
+        background-size: cover;
     }    
+    
+    .aboutSecond-cover{
+        padding:40px 0;
+        h2{
+            margin: 15px 0;
+        }        
+        .aboutSecond-steps{
+            margin: 0 auto;
+            display: grid;
+            gap:2%;
+            grid-template: 
+            "...  step-1 step-2 step-3 ..."/
+            0.5fr 25%    25%    25%    0.5fr
+            ;
+            
+            .aboutSecond-step{
+                padding: 30px 30px 20px 30px;
+                p{
+                    margin: 12px;
+                }
+            }
+    
+            .aboutSecond-step-1{
+                grid-area:step-1;
+            }   
+            .aboutSecond-step-2{
+                grid-area:step-2;
+            }   
+            .aboutSecond-step-3{
+                grid-area:step-3;
+            }   
+        }
+    }
+
+    .isaraLearningCover{
+        padding: 40px 0;
+    }
+    
     
 }
 
@@ -295,13 +369,14 @@
 
     // p要素文字
     .txts{
-        font-size: 8px;
+        font-size: 12px;
+        font-weight: 500;
     }   
     .txtm{
-        font-size: 12px;
+        font-size: 15px;
     }   
     .txtl{
-        font-size: 16px;
+        font-size: 18px;
     }   
     .header-left{
         margin: 0.5rem 0.25rem 0;
@@ -335,6 +410,9 @@
         padding: 30px 0;
         text-align: center;
         color: #fff;
+        .txtm{
+            font-size: 10px;
+        } 
         button{
             margin: 40px auto;
             width: 85%;
@@ -358,7 +436,7 @@
         .about-skils{
             background-color: #fff;
             border: 2px solid #ebb94d;
-            width:75%;
+            width:90%;
             margin: 20px auto;
     
             display: grid;
@@ -397,6 +475,37 @@
                 grid-area: skil-5;
             }   
         }
-    }        
+    } 
+    .aboutSecond{
+        background: url(https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbgsp.jpg) no-repeat center;
+        background-size: cover;
+    }            
+    
+    .aboutSecond-cover{
+        padding: 30px;
+        h2{
+            margin: 15px 0;
+        }
+        .txtm{
+            font-size: 13px;
+        }
+
+        .aboutSecond-step{
+            width: 100%;
+            background-color: #fff;
+            padding:15px 50px;
+            margin-bottom: 15px;
+            p{
+                margin: 0;
+                &:first-of-type{
+                    margin: 15px 0 5px;
+                }
+            }
+        }
+    }
+
+    .isaraLearningCover{
+        padding: 20px 0;
+    }
     
 }
