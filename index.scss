@@ -230,6 +230,15 @@
     }
 }
 
+//teacher
+.teacher-cover{
+    text-align: center;
+    color: #fff;
+    
+    .teacher-cover-teacher-introduction{
+        border:1px solid #fff;
+    }
+}
 
 
 //responsive
@@ -439,6 +448,52 @@
         padding: 30px;
         width:85%;
     }
+    .teacher{
+        background: url(https://isara.life/wp-content/themes/isara_v2/img/teacherbg.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .teacher-cover{
+        padding: 40px 0;
+        .teacher-cover-teachers{
+            margin: 0 auto;
+            display: grid;
+            gap:2%;
+            grid-template: 
+            "...  step-1 step-2 step-3 ..."/
+            0.5fr 27%    27%    27%    0.5fr
+            ;
+    
+            .teacher-cover-teacher{
+                text-align: center;
+                margin: 0 auto;
+                img{
+                    border-radius: 50%;
+                    width: auto;
+                    height: auto;
+                    max-width: 100%;
+                    max-height: 100%;
+                    position: relative;
+                    top:30px;
+                }
+                .teacher-cover-teacher-introduction{
+                    padding: 40px;
+                }
+            }
+    
+            .teacher-cover-teacher-1{
+                grid-area:step-1;
+            }   
+            .teacher-cover-teacher-2{
+                grid-area:step-2;
+            }   
+            .teacher-cover-teacher-3{
+                grid-area:step-3;
+            }   
+        }
+
+    }
+
 
     
 }
@@ -648,5 +703,31 @@
         padding: 0 10px;
         margin-bottom: 10px;
     }
+
+    .teacher{
+        background: url(https://isara.life/wp-content/themes/isara_v2/img/teacherbgsp.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .teacher-cover{
+        padding: 20px 0;
+        h2{
+            margin: 20px 0 20px;
+        }
+        .teacher-cover-teacher{
+            width:95%;
+            margin: 0 auto;
+            img{
+                position: relative;
+                top: 30px;
+                width: 120px;
+                border-radius: 50%;
+            }
     
+            .teacher-cover-teacher-introduction{
+                padding: 40px 10px 10px 10px;
+            }
+        }
+        
+    }
 }
