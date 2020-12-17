@@ -247,12 +247,41 @@
 }
 
 .teacher-cover {
+  padding: 20px 0;
   text-align: center;
   color: #fff;
 }
 
+.teacher-cover h2 {
+  margin: 20px 0 20px;
+}
+
 .teacher-cover .teacher-cover-teacher-introduction {
   border: 1px solid #fff;
+}
+
+.why-cover {
+  background-color: #ebb94d;
+  color: #fff;
+}
+
+.why-cover .kagikakko:before {
+  border-top: 4px solid #fff;
+  border-left: 4px solid #fff;
+}
+
+.why-cover .kagikakko:after {
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+}
+
+.why-try {
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 0 25px;
+  border-color: #ebb94d transparent transparent transparent;
 }
 
 @media screen and (min-width: 767px) {
@@ -474,6 +503,25 @@
   .teacher-cover .teacher-cover-teachers .teacher-cover-teacher-3 {
     grid-area: step-3;
   }
+  .why-cover {
+    padding: 40px 0;
+  }
+  .why-cover .qa-circle {
+    position: relative;
+    text-align: center;
+  }
+  .why-cover .qa-circle p {
+    height: 80px;
+    width: 80px;
+    font-weight: 300;
+    color: #ebb94d;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -655,12 +703,6 @@
     background: url(https://isara.life/wp-content/themes/isara_v2/img/teacherbgsp.jpg) no-repeat center;
     background-size: cover;
   }
-  .teacher-cover {
-    padding: 20px 0;
-  }
-  .teacher-cover h2 {
-    margin: 20px 0 20px;
-  }
   .teacher-cover .teacher-cover-teacher {
     width: 95%;
     margin: 0 auto;
@@ -673,6 +715,25 @@
   }
   .teacher-cover .teacher-cover-teacher .teacher-cover-teacher-introduction {
     padding: 40px 10px 10px 10px;
+  }
+  .why-cover {
+    padding: 20px 0 20px;
+  }
+  .why-cover .qa-circle {
+    position: relative;
+    text-align: center;
+  }
+  .why-cover .qa-circle p {
+    height: 60px;
+    width: 60px;
+    font-weight: 300;
+    color: #ebb94d;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=index.css.map */
