@@ -260,6 +260,17 @@
   border: 1px solid #fff;
 }
 
+.why:after {
+  margin: 0 auto;
+  width: 25px;
+  display: block;
+  position: relative;
+  content: '';
+  border-style: solid;
+  border-width: 25px 25px 0 25px;
+  border-color: #ebb94d transparent transparent transparent;
+}
+
 .why-cover {
   background-color: #ebb94d;
   color: #fff;
@@ -275,13 +286,32 @@
   border-right: 4px solid #fff;
 }
 
-.why-try {
+.answer-cover {
+  text-align: center;
+}
+
+.answer-cover .txtl {
+  font-weight: 600;
+}
+
+.answer-messages {
+  max-width: 100%;
   margin: 0 auto;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 25px 25px 0 25px;
-  border-color: #ebb94d transparent transparent transparent;
+}
+
+.answer-messages .answer-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.answer-messages .answer-message img {
+  border: 3px solid #ebb94d;
+}
+
+.answer-messages .answer-message .answer-message-message {
+  font-style: italic;
+  color: #777;
 }
 
 @media screen and (min-width: 767px) {
@@ -522,6 +552,31 @@
     text-align: center;
     margin-bottom: 0;
   }
+  .answer-cover {
+    padding: 30px 0 40px;
+  }
+  .answer-messages {
+    max-width: 100%;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .answer-messages .answer-message {
+    margin: 30px 0;
+  }
+  .answer-messages .answer-message img {
+    width: 200px;
+    height: 200px;
+  }
+  .answer-messages .answer-message .answer-message-message {
+    width: 65%;
+    margin-left: 35px;
+    text-align: left;
+  }
+  .answer-messages .answer-message .answer-message-message p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+    line-height: 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -734,6 +789,31 @@
     line-height: 60px;
     text-align: center;
     margin-bottom: 0;
+  }
+  .answer-cover {
+    padding: 10px 0 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .answer-messages {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .answer-messages .answer-message {
+    margin: 20px 0;
+  }
+  .answer-messages .answer-message img {
+    width: 115px;
+    height: 115px;
+  }
+  .answer-messages .answer-message .answer-message-message {
+    width: 75%;
+    margin-left: 15px;
+    text-align: left;
+  }
+  .answer-messages .answer-message .answer-message-message p {
+    font-size: 14px;
+    margin: 10px 0 20px;
   }
 }
 /*# sourceMappingURL=index.css.map */
