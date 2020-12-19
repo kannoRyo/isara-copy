@@ -314,6 +314,47 @@
   color: #777;
 }
 
+.class-cover {
+  text-align: center;
+}
+
+.class-cover li {
+  list-style: none;
+}
+
+.class-cover .class-contents {
+  margin: 0 auto;
+}
+
+.class-cover .class-contents p {
+  background-color: #016ea9;
+  margin: 0 0 15px 0;
+  padding: 15px;
+}
+
+.class-cover .class-contents .class-content {
+  background-color: #fff;
+  border: 1px solid #016ea9;
+  border-radius: 8px;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.class-cover .class-contents .class-content ul {
+  padding: 0;
+}
+
+.class-cover .class-contents .class-content li {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.class-cover .class-contents .class-content li p {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
 @media screen and (min-width: 767px) {
   .brsp {
     display: none;
@@ -577,6 +618,44 @@
     margin: 10px 0 20px;
     line-height: 40px;
   }
+  .class {
+    background: url(https://isara.life/wp-content/themes/isara_v2/img/classbg.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .class-cover .class-contents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .class-cover .class-contents ul {
+    margin: 0 auto;
+  }
+  .class-cover {
+    padding: 40px;
+  }
+  .class-cover .txts {
+    font-size: 16px;
+  }
+  .class-cover h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .class-cover .class-contents {
+    padding: 40px 0;
+    width: 70%;
+  }
+  .class-cover .class-contents .txtm {
+    font-size: 16px;
+  }
+  .class-cover .class-contents p {
+    padding: 15px;
+  }
+  .class-cover .class-contents .class-content {
+    width: 70%;
+  }
+  .class-cover .class-contents ul li {
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -814,6 +893,33 @@
   .answer-messages .answer-message .answer-message-message p {
     font-size: 14px;
     margin: 10px 0 20px;
+  }
+  .class {
+    background: url(https://isara.life/wp-content/themes/isara_v2/img/classbgsp.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .class-cover {
+    padding: 20px 0;
+  }
+  .class-cover .txts {
+    font-size: 16px;
+  }
+  .class-cover h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .class-cover .class-contents {
+    width: 95%;
+  }
+  .class-cover .class-contents .class-content {
+    margin-bottom: 10px;
+  }
+  .class-cover .class-contents .class-content .txts {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .class-cover .class-contents .class-content li {
+    padding: 10px;
   }
 }
 /*# sourceMappingURL=index.css.map */

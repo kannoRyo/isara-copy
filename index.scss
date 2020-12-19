@@ -296,6 +296,40 @@
     }
 }
 
+.class-cover{
+    text-align: center;
+    li{
+        list-style: none;
+    }
+    .class-contents{
+        margin: 0 auto;
+        p{
+            background-color: #016ea9;
+            margin: 0 0 15px 0;
+            padding: 15px;
+        }
+        .class-content{
+            background-color: #fff;
+            border: 1px solid #016ea9; 
+            border-radius: 8px;
+            height: 100%;
+            margin: 0 10px;
+            ul{
+                padding: 0;
+            }
+            li{
+                background-color: #fff;
+                border-bottom:1px solid #e5e5e5;
+                p{
+                    margin: 0;
+                    padding: 0;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
+
 
 //responsive
 
@@ -595,7 +629,50 @@
                 }
             }
         }
-    }    
+    }  
+    
+    .class{
+        background: url(https://isara.life/wp-content/themes/isara_v2/img/classbg.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .class-cover{
+        .class-contents{
+            display: flex;
+            ul{
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .class-cover{
+        .txts{
+            font-size: 16px;
+        }
+        h2{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        padding: 40px;
+        .class-contents{
+            padding: 40px 0;
+            width: 70%;
+            .txtm{
+                font-size: 16px;
+            }
+            p{
+                padding: 15px;
+            }
+            .class-content{
+                width: 70%;
+            }
+            ul{
+                li{
+                    padding: 10px;
+                }
+            }
+        }
+
+    }
 }
 
 //sp
@@ -874,5 +951,34 @@
                 }
             }
         }
-    }      
+    }   
+    
+    .class{
+        background: url(https://isara.life/wp-content/themes/isara_v2/img/classbgsp.jpg) no-repeat center;
+        background-size: cover;
+    }    
+
+    .class-cover{
+        padding: 20px 0;
+        .txts{
+            font-size: 16px;
+        }
+        h2{
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .class-contents{
+            width: 95%;
+            .class-content{
+                margin-bottom: 10px;
+                .txts{
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+                li{
+                    padding: 10px;
+                }
+            }
+        }
+    }    
 }
