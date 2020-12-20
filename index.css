@@ -355,6 +355,15 @@
   background-color: #fff;
 }
 
+.class-buttom {
+  background-color: #016ea9;
+}
+
+.class-buttom .class-buttom-cover {
+  color: #fff;
+  text-align: center;
+}
+
 @media screen and (min-width: 767px) {
   .brsp {
     display: none;
@@ -656,6 +665,9 @@
   .class-cover .class-contents ul li {
     padding: 10px;
   }
+  .class-buttom-cover {
+    padding: 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -920,6 +932,9 @@
   }
   .class-cover .class-contents .class-content li {
     padding: 10px;
+  }
+  .class-buttom-cover {
+    padding: 20px;
   }
 }
 /*# sourceMappingURL=index.css.map */

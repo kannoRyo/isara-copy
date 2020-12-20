@@ -296,6 +296,7 @@
     }
 }
 
+//class
 .class-cover{
     text-align: center;
     li{
@@ -330,6 +331,14 @@
     }
 }
 
+//class-coevr
+.class-buttom{
+    background-color: #016ea9;
+    .class-buttom-cover{
+        color: #fff;
+        text-align: center;
+    }
+}
 
 //responsive
 
@@ -673,6 +682,10 @@
         }
 
     }
+
+    .class-buttom-cover{
+     padding: 40px;   
+    }
 }
 
 //sp
@@ -980,5 +993,9 @@
                 }
             }
         }
-    }    
+    }   
+    
+    .class-buttom-cover{
+        padding: 20px;   
+       }    
 }
