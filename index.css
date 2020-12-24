@@ -368,8 +368,12 @@
   .brsp {
     display: none;
   }
-  .txts {
+  .txtxs {
     font-size: 14px;
+    font-weight: 400;
+  }
+  .txts {
+    font-size: 16px;
     font-weight: 600;
   }
   .txtm {
@@ -668,6 +672,43 @@
   .class-buttom-cover {
     padding: 40px;
   }
+  .flow-cover-pc {
+    padding: 40px 0;
+    text-align: center;
+  }
+  .flow-cover-pc .flow-imgs {
+    margin: 40px auto;
+  }
+  .flow-cover-pc .flowboxs {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .flow-cover-pc .flowboxs .flowbox {
+    background-color: #fef5e0;
+    padding: 10px 35px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .flow-cover-pc .flowboxs .flowbox .flowbox-left {
+    width: 25%;
+    padding: 20px;
+  }
+  .flow-cover-pc .flowboxs .flowbox .flowbox-left p {
+    margin-top: 20px;
+  }
+  .flow-cover-pc .flowboxs .flowbox .flowbox-right {
+    padding-top: 10px;
+    width: 75%;
+    text-align: left;
+  }
+  .flow-cover-pc .flowboxs .flowbox .flowbox-right p {
+    margin: 20px 0;
+  }
+  .flow-cover-sp {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -935,6 +976,49 @@
   }
   .class-buttom-cover {
     padding: 20px;
+  }
+  .flow-cover-sp {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .flow-cover-sp .card {
+    margin-bottom: 5px;
+  }
+  .flow-cover-sp .flow-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: black;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .flow-cover-sp .flow-heading img {
+    margin-top: 5px;
+    margin-right: 15px;
+  }
+  .flow-cover-sp .flow-heading p {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  .flow-cover-sp .flow-card {
+    background-color: #fef5e0;
+  }
+  .flow-cover-sp .flow-body {
+    background-color: #fef5e0;
+  }
+  .flow-cover-sp .flow-body p {
+    margin-bottom: 10px;
+  }
+  .accordion {
+    padding: 20px 0;
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+  }
+  .flow-cover-pc {
+    display: none;
   }
 }
 /*# sourceMappingURL=index.css.map */
