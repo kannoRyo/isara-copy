@@ -340,6 +340,13 @@
     }
 }
 
+//bangkok
+.bangkok-cover{
+    color: #fff;
+    opacity: 0.9;
+
+}
+
 //responsive
 
 //pc
@@ -726,6 +733,27 @@
     .flow-cover-sp{
         display:none;
     }
+
+    .bangkok-cover{
+        background: url(https://isara.life/wp-content/themes/isara_v2/img/bangkokbg.jpg) no-repeat center;
+        background-size: cover;
+        padding: 40px;
+        h2{
+            margin: 20px 0;
+        }
+        p{
+            margin-bottom: 10px;
+            &:first-of-type{
+                font-size: 12px;
+            }
+        }       
+        ul{
+            margin:20px 0;
+            li{
+                margin-bottom: 10px;
+            }
+        }
+    }
 }
 
 //sp
@@ -1082,5 +1110,29 @@
     
     .flow-cover-pc{
         display:none;
+    }
+
+    .bangkok-cover{
+        background: url(https://isara.life/wp-content/themes/isara_v2/img/bangkokbgsp.jpg) no-repeat center;
+        background-size: cover;
+        padding: 20px 40px;
+        h2{
+            text-align: center;
+            margin: 20px 0;
+        }
+        p{
+            margin-bottom: 10px;
+            &:first-of-type{
+                font-size: 12px;
+            }
+        }       
+        ul{
+            margin:20px 0;
+            padding: 0;
+            li{
+                text-align: left;
+                margin-bottom: 10px;
+            }
+        }
     }
 }
