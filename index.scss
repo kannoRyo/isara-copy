@@ -360,6 +360,17 @@
     text-align: center;
 }
 
+// 
+.learning-cover{
+    padding: 40px 0;
+    text-align: center;
+
+    .learning-cover-content-text{
+        margin-left: 40px;
+        text-align: left;
+    }
+}
+
 //responsive
 
 //pc
@@ -845,6 +856,23 @@
             margin-bottom: 40px;
         }
     }
+
+    .learning-cover{
+        .txtl{
+            margin: 20px 0 35px 0;
+        }
+
+        .learning-cover-content{
+            max-width: 1028px;
+            width: 860px;
+            margin: 40px auto ;
+            display: flex;
+            .learning-cover-content-text{
+                font-size: 14px;
+            }
+        }
+    }
+
 }
 
 //sp
@@ -1295,4 +1323,19 @@
             letter-spacing: 1px;
         }
     }    
+
+    .learning-cover-content{
+        width: 90%;
+        margin: 0 auto;
+        img{
+            margin-bottom: 15px;
+        }
+        .learning-cover-content-text{
+            font-size: 15px;
+            margin-left: 0;
+            p{
+                margin-bottom: 20px;
+            }
+        }
+    }
 }

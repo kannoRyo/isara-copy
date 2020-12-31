@@ -379,6 +379,16 @@
   text-align: center;
 }
 
+.learning-cover {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.learning-cover .learning-cover-content-text {
+  margin-left: 40px;
+  text-align: left;
+}
+
 @media screen and (min-width: 767px) {
   .brsp {
     display: none;
@@ -817,6 +827,20 @@
     font-size: 16px;
     margin-bottom: 40px;
   }
+  .learning-cover .txtl {
+    margin: 20px 0 35px 0;
+  }
+  .learning-cover .learning-cover-content {
+    max-width: 1028px;
+    width: 860px;
+    margin: 40px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .learning-cover .learning-cover-content .learning-cover-content-text {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1216,6 +1240,20 @@
   .special-detail-cover .txtm {
     font-size: 12px;
     letter-spacing: 1px;
+  }
+  .learning-cover-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .learning-cover-content img {
+    margin-bottom: 15px;
+  }
+  .learning-cover-content .learning-cover-content-text {
+    font-size: 15px;
+    margin-left: 0;
+  }
+  .learning-cover-content .learning-cover-content-text p {
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=index.css.map */
