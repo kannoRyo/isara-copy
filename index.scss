@@ -353,6 +353,13 @@
     text-align: center;
 }
 
+//specialDetail
+
+.special-detail-cover{
+    color: #fff;
+    text-align: center;
+}
+
 //responsive
 
 //pc
@@ -812,6 +819,32 @@
         }
 
     }
+
+    .special-detail{
+        background: url(https://isara.life/wp-content/themes/isara_v2/img/specialdetail.jpg);
+    }
+
+    .special-detail-cover{
+        padding: 40px;
+        .kagikakko{
+            &:before{
+                border-top: 4px solid #fff;
+                border-left: 4px solid #fff;
+            }
+            &:after{
+                border-bottom: 4px solid #fff;
+                border-right: 4px solid #fff;
+            }        
+        }
+
+        .txtl{
+            margin: 20px 0;
+        }
+        .txtm{
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+    }
 }
 
 //sp
@@ -1235,4 +1268,31 @@
 
     }
     }   
+
+    .special-detail{
+        background: url(https://isara.life/wp-content/themes/isara_v2/img/specialdetailsp.jpg);
+    }
+
+    .special-detail-cover{
+        padding: 20px 10px;
+        .kagikakko{
+            line-height: 30px;
+            &:before{
+                border-top: 4px solid #fff;
+                border-left: 4px solid #fff;
+            }
+            &:after{
+                border-bottom: 4px solid #fff;
+                border-right: 4px solid #fff;
+            }        
+        }
+
+        .txtl{
+            margin: 20px 0;
+        }
+        .txtm{
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+    }    
 }

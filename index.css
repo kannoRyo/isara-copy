@@ -374,6 +374,11 @@
   text-align: center;
 }
 
+.special-detail-cover {
+  color: #fff;
+  text-align: center;
+}
+
 @media screen and (min-width: 767px) {
   .brsp {
     display: none;
@@ -791,6 +796,27 @@
     -ms-grid-column: 3;
     grid-column: 3;
   }
+  .special-detail {
+    background: url(https://isara.life/wp-content/themes/isara_v2/img/specialdetail.jpg);
+  }
+  .special-detail-cover {
+    padding: 40px;
+  }
+  .special-detail-cover .kagikakko:before {
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+  }
+  .special-detail-cover .kagikakko:after {
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+  }
+  .special-detail-cover .txtl {
+    margin: 20px 0;
+  }
+  .special-detail-cover .txtm {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1166,6 +1192,30 @@
     width: 220px;
     color: white;
     text-align: left;
+  }
+  .special-detail {
+    background: url(https://isara.life/wp-content/themes/isara_v2/img/specialdetailsp.jpg);
+  }
+  .special-detail-cover {
+    padding: 20px 10px;
+  }
+  .special-detail-cover .kagikakko {
+    line-height: 30px;
+  }
+  .special-detail-cover .kagikakko:before {
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+  }
+  .special-detail-cover .kagikakko:after {
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+  }
+  .special-detail-cover .txtl {
+    margin: 20px 0;
+  }
+  .special-detail-cover .txtm {
+    font-size: 12px;
+    letter-spacing: 1px;
   }
 }
 /*# sourceMappingURL=index.css.map */
