@@ -389,6 +389,23 @@
   text-align: left;
 }
 
+.contact-form {
+  background-color: #ebb94d;
+}
+
+.contact-form-cover {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact-form-cover input, .contact-form-cover textarea {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  width: 90%;
+}
+
 @media screen and (min-width: 767px) {
   .brsp {
     display: none;
@@ -840,6 +857,27 @@
   }
   .learning-cover .learning-cover-content .learning-cover-content-text {
     font-size: 14px;
+  }
+  .contact-form-cover {
+    padding: 40px 0;
+    max-width: 720px;
+  }
+  .contact-form-cover input {
+    margin-bottom: 25px;
+    padding: 10px;
+  }
+  .contact-form-cover textarea {
+    margin: 40px auto 25px;
+    padding: 10px;
+  }
+  .contact-form-cover button {
+    width: 90%;
+    padding: 15px 0;
+    border-radius: 32px;
+    opacity: 0.8;
+  }
+  .contact-form-cover button:hover {
+    opacity: 1;
   }
 }
 
